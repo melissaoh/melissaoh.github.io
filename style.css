@@ -1,0 +1,52 @@
+body {
+  background-color: snow;
+  font-family: "PT Sans";
+  color: #383838;
+  max-width: 960px;
+  margin: auto;
+  padding: 80px;
+  padding-right: 160px;
+}
+
+.logo {
+  padding-bottom: 40px;
+}
+
+.logo a {
+  color: #C3846D;
+  font-size: 36px;
+
+}
+
+.navbar {
+  float: right;
+  vertical-align: middle;
+}
+
+.navbar ul {
+  position: fixed;
+  padding-left: 60px;
+  padding-top: 360px;
+}
+
+.navbar a {
+  color: #383838;
+}
+
+.navbar a:hover, .logo a:hover {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+
+.container-fluid img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 40px;
+}
+
+.header {
+  font-size: 24px;
+}
